@@ -1,0 +1,103 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #222;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Tiny Sign-Up Buttons (Top-Right) */
+  .top-right-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .signup-btn.tiny {
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .signup-btn.tiny.buyer {
+    background: #2ecc71;
+  }
+  
+  .signup-btn.tiny.seller {
+    background: #e74c3c;
+  }
+  
+  .signup-btn.tiny.admin {
+    background: #3498db;
+  }
+  
+  .signup-btn.tiny:hover {
+    opacity: 0.8;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #ff6b6b, #fbc531);
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta-btn {
+    background-color: white;
+    color: #ff6b6b;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Featured Auctions */
+  .featured-auctions {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .auction-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .auction-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .auction-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
